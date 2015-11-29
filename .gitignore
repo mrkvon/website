@@ -1,0 +1,14 @@
+blog
+blog/*
+stats
+stats/*
+js/ol
+js/ol/*
+nomadbooks
+nomadbooks/*
+tutoring
+tutoring/*
+openlife/dblogin.php
+openlife/dbloginread.php
+openlife/map.php
+*.swp
