@@ -1,0 +1,17 @@
+<div id="menu">
+<nav>
+<ul>
+{% set menu = [
+  {'link':'/', 'name':'main'},
+  {'link':'/projects', 'name':'projects'}, 
+  {'link':'/ideas', 'name':'ideas'},
+  {'link':'/links', 'name':'links'},
+  {'link':'/blog', 'name':'blog'},
+] %}
+
+{% for item in menu %}
+    <li><span><a href="{{ item.link }}" {% if item.name == pagename %} class="active" {% endif %}>{{ item.name }}</a></span></li>
+{% endfor %}
+</ul>
+</nav>
+</div>

@@ -11,4 +11,6 @@ tutoring/*
 openlife/dblogin.php
 openlife/dbloginread.php
 openlife/map.php
+lib/*
+cache
 *.swp

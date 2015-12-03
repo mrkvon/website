@@ -34,6 +34,10 @@ body{
   color:white;
 }
 
+#menu {
+  z-index:5;
+}
+
 #page{
   position:relative;
   background-color:white;
@@ -161,4 +165,12 @@ table tr{
   #wrapper{
     width:320px;
   }
+}
+
+.center {
+  text-align:center;
+}
+
+#main-text {
+  margin-bottom:40px;
 }
