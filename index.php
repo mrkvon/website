@@ -1,12 +1,12 @@
 <?php
 
 //setting Twig template engine
-require_once $SERVER['DOCUMENT_ROOT'].'lib/Twig/lib/Twig/Autoloader.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/lib/Twig/lib/Twig/Autoloader.php';
 Twig_Autoloader::register();
 
-$loader = new Twig_Loader_Filesystem($SERVER['DOCUMENT_ROOT'].'views');
+$loader = new Twig_Loader_Filesystem($_SERVER['DOCUMENT_ROOT'].'/views');
 $twig = new Twig_Environment($loader, array(
-  'cache' => $SERVER['DOCUMENT_ROOT'].'cache',
+  'cache' => $_SERVER['DOCUMENT_ROOT'].'/cache',
   'debug' => true
 ));
 
