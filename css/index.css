@@ -174,3 +174,9 @@ table tr{
 #main-text {
   margin-bottom:40px;
 }
+
+/* highlight span with title */
+span[title] {
+  color: #666;
+
+}
